@@ -1,2 +1,2 @@
-# fablabforkids
-a site for kids-related activities addressing young makers
+# fablabforkids-mockup
+Preview of fablabforkids.it
