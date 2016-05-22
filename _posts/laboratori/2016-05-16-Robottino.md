@@ -1,6 +1,6 @@
 ---
 layout: laboratori-lay
-title: ABCodice con Robottino
+title: Programma con Robottino
 meta: La programmazione di un robot, a misura di bambino.
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
