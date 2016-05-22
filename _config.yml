@@ -1,3 +1,4 @@
 markdown: kramdown
+permalink: pretty
 baseurl: /fablabforkids
 exclude: ['README.md']

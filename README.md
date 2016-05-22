@@ -1,2 +1,1 @@
-# fablabforkids-mockup
-Preview of fablabforkids.it
+#fablabforkids.it
