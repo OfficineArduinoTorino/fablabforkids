@@ -7,4 +7,4 @@ category: laboratori
 anni: 8 - 11 anni
 fotografia: http://robottino.cc/img/robottino-stardust-600x600.jpg
 ---
-Per imparare a programmare ci sono già i libri o le app per tablet. E se invece provassimo ad avvicinarci alla programmazione come se fosse una lingua misteriosa tutta da decifrare per riattivare un totem chiamato... Robottino? Un'introduzione alla scoperta dei concetti chiave della programmazione, spiegati ad altezza di bambino.
+Robottino è una testa rotante programmabile: la scheda Arduino sulla schiena consente di personalizzare i comportamenti e le intereazioni. Un’introduzione alla scoperta dei concetti chiave della robotica e della programmazione, spiegati ad altezza di bambino.
