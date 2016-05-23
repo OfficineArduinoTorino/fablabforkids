@@ -7,4 +7,5 @@ category: laboratori
 anni: 8 - 14 anni
 fotografia: http://tongatron.it/fablabforkids/img/littlebits.jpg
 ---
-I blocchi blu per l’energia, quelli rosa per gli input, quelli verdi per luci e suoni, infine quelli arancione per collegare tutti i moduli tra loro e voilà: puoi creare quello che vuoi!
+Imparare l'elettronica non è mai stato così facile! Divertente come un LEGO, littleBits è composto da una serie di "mattoncini" magnetici colorati, che sono in realtà moduli elettronici, che permettono a chiunque di creare un circuito elettrico perfettamente funzionante!
+Quindi nessuna saldatura, nessun collegamento elettrico, nessuna programmazione... soltanto tanto divertimento e spazio per la creatività!
