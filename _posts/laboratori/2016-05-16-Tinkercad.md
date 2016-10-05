@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Tinkercad
 meta: Impara a modellare per la stampa 3d
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori-bozza
+category: laboratori
 anni: 5-11 anni
 fotografia: http://tongatron.it/fablabforkids/img/tinkercad.jpg
 ---

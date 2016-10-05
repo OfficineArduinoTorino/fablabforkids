@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Design for kids
 meta: Tutto il bello della progettazione
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori-bozza
+category: laboratori
 anni: 5 - 11 anni
 fotografia: http://tongatron.github.io/fablabforkids-mockup/img/immagine.jpg
 ---

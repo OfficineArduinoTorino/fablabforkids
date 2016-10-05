@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Banana Piano
 meta: L'orchestra di frutta e verdura
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori-bozza
+category: laboratori
 anni: 5 - 11 anni
 fotografia: http://tongatron.it/fablabforkids/img/bananapiano.jpg
 ---
