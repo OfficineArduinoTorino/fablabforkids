@@ -1,10 +1,10 @@
 ---
 layout: laboratori-lay
 title: Solidi platonici
-meta: Costruzioni di cannucce
+meta: Costruzioni di cannucce e Strawbees
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
-anni: 5 - 11 anni
+anni: 5 - 9 anni
 fotografia: http://fablabforkids.it/img/solidiplatonici.jpg
 ---
-Usando dei giunti personalizzati per cannucce, i partecipanti possono costruire quello che preferiscono: piramidi, cupole geodetiche, robot, bracci meccanici, persino piccioni viaggiatori robotizzati!
+Una manciata di cannucce da una parte e un mucchio di strawbees dall’altra, e sarà possibile costruire (quasi) tutto quello che ti pare: ombrelli e cappelli, insetti mille zampe e pesci degli abissi, macchine operatrici, robottoni e molto altro ancora! Un modo nuovo per prendere dimestichezza con i principi della meccanica sperimentandoli in prima persona.
