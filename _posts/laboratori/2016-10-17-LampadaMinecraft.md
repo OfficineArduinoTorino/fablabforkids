@@ -7,5 +7,5 @@ category: laboratori
 anni: 10 - 14 anni
 fotografia: img/lampadaminecraft.jpg
 ---
-Dalla realtà virtuale di Minecraft al tuo comodino: una lampada personalizata e autocostruita per illuminare le notti più spaventose.
+Dalla realtà virtuale di Minecraft al tuo comodino: una lampada personalizzata e autocostruita per illuminare le notti più spaventose.
 Costruisci un blocco Minecraft con le trasparenze necessarie per illuminare la stanza grazie a un LED luminoso posto al suo interno.
