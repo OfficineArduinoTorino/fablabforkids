@@ -22,11 +22,11 @@
 	background-color: #50A3F3;
 	color: white;
 	}
-	
+
 	h1{
 	font-size: 52px;
 	font-weight: 700;
-	color: #50A3F3;
+	color: #00929f;
 	}
 	h5{
 	font-weight: 800;
@@ -59,7 +59,7 @@
 	font-size: 26px;
 	background-color: #F2AB3A;
 	}
-	
+
 	.jumbotron{
 		margin-bottom: 0px;
 		background-image: url(img/jumbokids.jpg);
