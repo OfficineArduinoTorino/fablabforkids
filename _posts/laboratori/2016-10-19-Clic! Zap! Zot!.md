@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Clic! Zap! Zot!
 meta: Conoscere l'elettricità senza prendere la scossa.
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori
+category: laboratori inattivi
 anni: 6 - 10 anni
 fotografia: img/cliczapzot.jpg
 ---
