@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: BareConductive
 meta: Disegna il tuo circuito
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori inattivi
+category: laboratoriinattivi
 anni: 5 - 14 anni
 fotografia: http://fablabforkids.it/img/bareconductive.jpg
 ---

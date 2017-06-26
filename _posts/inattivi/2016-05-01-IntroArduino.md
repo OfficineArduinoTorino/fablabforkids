@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Intro su Arduino
 meta: Realizza il tuo progetto interattivo
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori inattivi
+category: laboratoriinattivi
 anni: 10 - 14 anni
 fotografia: https://www.arduino.cc/new_home/assets/illu-arduino-UNO.png
 ---

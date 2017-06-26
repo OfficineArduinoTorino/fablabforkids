@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Videogiochi fantastici e come costruirli
 meta: Creare videogiochi utilizzando il nuovo linguaggio del CODICE
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori scuola
+category: laboratoriscuola
 anni: 10 - 14 anni
 fotografia: img/scratch.jpg
 ---
