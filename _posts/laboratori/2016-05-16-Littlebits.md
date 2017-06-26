@@ -1,11 +1,11 @@
 ---
 layout: laboratori-lay
-title: Littlebits
-meta: Costruisci il tuo progetto interattivo con i componenti elettronici LittleBits.
+title: Inventa e costruisci con <br> littleBits
+meta: Imparare l’elettronica non è mai stato così facile!
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
 anni: 8 - 14 anni
 fotografia: img/littlebits.jpg
 ---
-Imparare l'elettronica non è mai stato così facile! Divertente come un LEGO, littleBits è composto da una serie di "mattoncini" magnetici colorati, che sono in realtà moduli elettronici, che permettono a chiunque di creare un circuito elettrico perfettamente funzionante!
-Quindi nessuna saldatura, nessun collegamento elettrico, nessuna programmazione... soltanto tanto divertimento e spazio per la creatività!
+Con <a href="https://littlebits.cc"> littleBits</a> le possibilità sono tantissime: ci sono ruote, pulsanti, led colorati, effetti sonori… tutto quello che serve per realizzare grandi invenzioni!
+Nessuna saldatura, nessun collegamento elettrico, nessuna programmazione. Soltanto tanto divertimento e spazio per la creatività.
