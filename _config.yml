@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: pretty
-baseurl: fablabforkids
+baseurl: #fablabforkids
 exclude: ['README.md']
 
 # Settings for analytics helper

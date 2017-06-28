@@ -1,6 +1,6 @@
 ---
 layout: laboratori-lay
-title: Lampada di Minecraft
+title: Lampada <br> di Minecraft
 meta: Illumina la notte col tuo blocco luminoso
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
