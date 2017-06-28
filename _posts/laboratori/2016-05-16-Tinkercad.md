@@ -1,7 +1,7 @@
 ---
 layout: laboratori-lay
 title: Modellazione e stampa 3D con Tinkercad
-meta: Siamo tutti designer, dalla modellazione alla stampa 3d.
+meta: Dalla modellazione alla stampa 3d.
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
 anni: 11 - 14 anni

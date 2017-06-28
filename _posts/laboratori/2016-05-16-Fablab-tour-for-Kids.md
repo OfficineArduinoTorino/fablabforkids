@@ -1,6 +1,6 @@
 ---
 layout: laboratori-lay
-title: Fablab Tour
+title: Fablab <br> Tour 
 meta: Vieni a scoprire il laboratorio e le sue macchine
 source: https://jekyllrb.com/docs/pagination/
 category: laboratori
