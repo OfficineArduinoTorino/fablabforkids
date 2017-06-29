@@ -1,10 +1,12 @@
 ---
 layout: laboratori-lay
-title: Videogiochi fantastici e come costruirli
-meta: Creare videogiochi utilizzando il nuovo linguaggio del CODICE
+title: MARSHMALLOW CHALLENGE
+meta:
 source: https://jekyllrb.com/docs/pagination/
 category: challenge
-anni: 10 - 14 anni
+anni: 20'
 fotografia: img/scratch.jpg
 ---
-Trasformeremo problemi concreti in concetti astratti (matematici, logici o informatici) per ricercare soluzioni algoritmiche. Alleneremo il pensiero computazionale e il concetto di Open Source. Aiuteremo i ragazzi ad entrare in un mondo apparentemente di difficile approccio attraverso software come Scratch e AppInventor.
+Un marshmallow, una manciata di spaghetti e tanta creatività per portare a termine una corsa contro il tempo...e la gravità
+Durante la Marshmallow Challenge bisognerà costruire una torre di spaghetti che sostiene un marshmallow. Questa sfida permette di sviluppare competenze diverse, prima tra tutte quella di lavorare all’interno di un gruppo, comunicare con altre persone e pensare in modo organico e propositivo per raggiungere un obiettivo comune e vincere insieme.
+Un modo divertente (e appiccicoso) per mettersi in gioco con rapidità, creatività e inventiva, per trovare sempre nuove soluzioni.
