@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="row">
-  {% for challenge in site.categories.challenge limit: 12 %}
+  {% for laboratorio in site.categories.gare limit: 12 %}
     <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><a href="{{challenge.url}}">{{challenge.title}}</a></h3>
+          <h3 class="panel-title"><a href="{{laboratoriinattivi.url}}">{{laboratoriinattivi.title}}</a></h3>
         </div>
         <div class="panel-body">
-          <h4>Età: {{challenge.anni}}</h4>
+          <h4>Età: {{laboratori.anni}}</h4>
           <img src="{{challenge.fotografia}}" width="100%" class="img-responsive img-rounded">
           <h4>{{challenge.meta}}</h4>
           {{challenge.content}}
