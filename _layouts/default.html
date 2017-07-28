@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   {% include head.html %}
 
 	{% include sottopancia.html %}
@@ -9,35 +10,62 @@
 			<h1>A breve i nuovi percorsi per il trimestre Ottobre-Dicembre 2017!<br></h1>
 			<br>
 		</div>
+=======
+ {% include head.html %}
+<body>
+ {% include header.html %}
+
+ {% include menu.html %}
+
+ {% include sottopancia.html %}
 
 
-		<hr>
+<div class="container" style="background-color: #0099F">
+	<div class="row" align="center">
+		<br>
+		<h1>I nuovi percorsi Ottobre-Dicembre 2017! <br> <br></h1>
+      <div class="col-sm-6">
+        <a href="{{site.baseurl}}/follie/"><img src="{{site.baseurl}}/img/follie.jpg" width="550"></a>
+        <p><br><h4> 8-11 anni</h4> <br>
+          Approccio alla tecnologia // Principi base della programmazione <br>
+          Disegno e rappresentazione delle proprie idee // Principi dell’animazione <br>
+          Creatività digitale
+        </p>
+        </div>
+
+      <div class="col-sm-6">
+        <a href="{{site.baseurl}}/apprendista/"><img src="{{site.baseurl}}/img/apprendista.jpg" width="550"></a>
+        <p><br><h4> 11-14 anni</h4><br>
+          Programmazione, logica e matematica // Disegno e progettazione <br>
+          Pensiero computazionale e problem solving //  Elettronica e robotica<br>
+          Fabbricazione digitale, stampa 3D e taglio laser
+      </p>
+      </div>
+		<br>
 	</div>
+>>>>>>> development
+
+
+	<hr>
+</div>
+</div>
+<div class="container">
+	<div class="row" align="center">
+		<h1>Laboratori</h1>
+		<br>
 	</div>
-	<div class="container">
-		<div class="row" align="center">
-			<br>
-
-
-
-{% include facebook-galleries.html %}
-
-
-			<h1>Laboratori</h1>
-			<br>
-		</div>
-		<div class="row">
-			{{content}}
-		</div>
+	<div class="row">
+		{{content}}
 	</div>
+</div>
 
 
 
-	{% include footer.html %}
+{% include footer.html %}
 
 
 
-</body>
+
 </body>
 
 </html>

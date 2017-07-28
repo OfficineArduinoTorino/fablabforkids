@@ -1,9 +1,9 @@
 ---
-layout: laboratori-lay
+layout: scuole
 title: Fablab <br> Tour
 meta: Vieni a scoprire il laboratorio e le sue macchine
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori
+category: scuole
 anni: 6 - 11 anni
 fotografia: img/fablabtour.jpg
 ---
