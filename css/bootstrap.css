@@ -253,7 +253,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #008e9e !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -4202,6 +4202,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
+
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
