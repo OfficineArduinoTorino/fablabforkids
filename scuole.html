@@ -4,13 +4,12 @@ layout: scuole
 
 <div class="row">
   {% for scuola in site.categories.scuole limit: 12 %}
-    <div class="col-md-12">
+    <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">{{scuola.title}}</h3>
         </div>
         <div class="panel-body">
-          <h4>Età: {{scuola.anni}}</h4>
           <img src="{{baseurl}}/{{scuola.fotografia}}" width="100%" class="img-responsive img-rounded">
           <h4>{{scuola.meta}}</h4>
           {{scuola.content}}

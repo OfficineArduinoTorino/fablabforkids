@@ -5,7 +5,7 @@ meta: Crea il tuo cartone animato
 source: http://fablabtorino.org/fablab-4-kids/
 category: laboratori
 anni: 6 - 14 anni
-fotografia: img/spassuno.png
+fotografia: http://fablabforkids.it/img/spassuno.png
 ---
 
 Pennarelli, plastilina, una storia da raccontare et voilà, il cartone animato è servito! <br>
