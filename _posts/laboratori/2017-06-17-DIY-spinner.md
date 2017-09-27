@@ -6,7 +6,7 @@ source: https://jekyllrb.com/docs/pagination/
 category: evidenza
 anni: 9 - 12 anni
 tag: DIY
-fotografia: http://fablabforkids.it/img/banner/Minecraft_lamp.jpg
+fotografia: http://fablabforkids.it/img/banner/mycraft_lamp.jpg
 dove: Fablab Torino
 quando:
 ---
