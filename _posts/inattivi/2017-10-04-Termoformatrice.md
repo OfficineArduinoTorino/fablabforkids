@@ -1,10 +1,10 @@
 ---
 layout: laboratori-lay
-title: Zumo Robot
-meta: Robot cingolato
+title: TERMO HALLOWEEN
+meta:
 source: https://jekyllrb.com/docs/pagination/
 category: laboratoriinattivi
 anni: 5 - 14 anni
 fotografia: http://fablabforkids.it/img/fablabtour.jpg
 ---
-Un robot cingolato programmabile in 1000 modi.
+Termoformatrice di halloween
