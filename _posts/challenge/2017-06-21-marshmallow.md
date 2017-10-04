@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: MARSHMALLOW CHALLENGE
 meta:
 source: https://jekyllrb.com/docs/pagination/
-category: laboratori
+category: challenge
 anni: 6 - 14 anni
 fotografia: http://fablabforkids.it/img/spaghetti.jpg
 ---
