@@ -3,7 +3,7 @@ layout: laboratori-lay
 title: Sumo <br> Robot
 meta: Veri e propri incontri di SUMO robotico
 source: https://jekyllrb.com/docs/pagination/
-category: laboratoriinattivi
+category: laboratori
 anni: 10 - 14 anni
 fotografia: http://fablabforkids.it/img/sumo.jpg
 ---
