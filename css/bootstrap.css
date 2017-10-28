@@ -1588,6 +1588,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.containerslider {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;

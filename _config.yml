@@ -11,3 +11,5 @@ analytics :
   provider : google
   google :
       tracking_id : 'UA-78293879-1'
+
+iis_slider_array: []
