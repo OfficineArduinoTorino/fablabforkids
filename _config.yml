@@ -1,15 +1,17 @@
+# Site settings
+title: Fablab for Kids
+email: info@fablabforkids.it
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
 markdown: kramdown
-permalink: pretty
-baseurl: #fablabforkids
-exclude: ['README.md']
 
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-#
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-78293879-1'
-
-iis_slider_array: []
+paginate: 4
+paginate_path: "blog/page:num"
