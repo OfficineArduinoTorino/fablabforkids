@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Make some sketches
-date:   2015-05-04 10:20:05
+title:  TORINO Mini Maker Faire
+date:   2017-05-04 10:20:05
 categories:
   - Logo Design
   - Tricks and Tips
