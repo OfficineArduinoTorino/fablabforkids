@@ -12,20 +12,20 @@ skills:
     percent: 61
 
 members:
-  - name: Mark Wayne
-    position: founder
+  - name: MAKER’S EGG QUEST
+    position: 6-14 anni
     desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+      Un uovo deve essere salvato, come..?<br> A questo dovrete pensarci tu e la tua squadra.<br> Durante la Egg Quest avrete a disposizione un uovo e diversi materiali. Questa challenge consente di mettersi alla prova con alcuni principi dinamici, affiancandoli con una parte più manuale e creativa basata esclusivamente sulle proprie scelte, che porteranno una squadra alla vittoria.<br> Occhio, però, il rischio dell’effetto frittata è dietro l’angolo!
     avatar: images/@stock/member-1.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
       - icon_class: fa fa-facebook
         url: http://facebook.com
-  - name: Kate Holms
-    position: Creative Director
+  - name: AIR POWERED CAR RACE
+    position: 6-14 anni
     desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+      3, 2, 1… Si soffia! Durante l’Air Powered car race costruirete la vostra monoposto alimentata a palloncini, ma state tranquilli, non bisogna essere meccanici o ingegneri. Basta essere makers creativi e ingegnosi, che sappiano sfruttare i materiali di recupero e il lavoro di un team.<br> Partecipa alla corsa più scoppiettante del Fablab. Velocità, precisione e taaaaaaaaaaanto fiato.
     avatar: images/@stock/member-2.jpg
     socials:
       - icon_class: fa fa-twitter
@@ -34,10 +34,10 @@ members:
         url: http://facebook.com
       - icon_class: fa fa-dribbble
         url: http://dribbble.com
-  - name: Tom Hason
-    position: Designer
+  - name: MARSHMALLOW CHALLENGE
+    position: 6-14 anni
     desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+      Un marshmallow e una manciata di spaghetti per vincere una gara con la gravità! <br> Questa sfida permette di sviluppare molteplici competenze, lavorare all’interno di un gruppo, pensare in modo propositivo e collaborare per raggiungere un obiettivo comune. <br>Durante la Marshmallow Challenge bisognerà costruire una torre di spaghetti che sostiene un marshmallow. Un modo divertente (e appiccicoso) per mettersi in gioco con rapidità, creatività e inventiva, per trovare sempre nuove soluzioni.
     avatar: images/@stock/member-3.jpg
     socials:
       - icon_class: fa fa-twitter
@@ -46,25 +46,17 @@ members:
         url: http://facebook.com
       - icon_class: fa fa-tumblr
         url: http://tumblr.com
-  - name: Lily Whrem
-    position: Developer
-    desc:
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
-    avatar: images/@stock/member-4.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
 ---
 
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <h3>Our history</h3>
+      <h3>FabLab Tour</h3>
       <div class='spacing'></div>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>La visita guidata e interattiva alla scoperta del laboratorio che ogni inventore vorrebbe!
+Il motto del Fablab Torino è: se puoi immaginarlo, qui puoi realizzarlo. </p><p>
+Scopriremo (e proveremo!) insieme le meraviglie che si possono trovare in un fablab:
+stampanti 3D, macchinari, robot e invenzioni straordinarie.</p>
     </div>
     <div class='medium-6 columns'>
       <h3>Our skills</h3>
@@ -90,18 +82,18 @@ members:
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
-    <h3>The team</h3>
+    <h3>Challenge</h3>
     <div class='spacing'></div>
   </div>
 </div>
 <div class='row'>
   {% for member in page.members %}
-    <div class='small-6 medium-3 large-3 columns'>
+    <div class='small-1 medium-4 large-4 columns'>
       <div class='mod modTeamMember style-2'>
         <div class='member'>
           <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
           <div class='overlay'>
-            <ul class='socials'>
+            <!--<ul class='socials'>
               {% for social in member.socials %}
                 <li>
                   <a href='{{social.url}}'>
@@ -109,7 +101,7 @@ members:
                   </a>
                 </li>
               {% endfor %}
-            </ul>
+            </ul>!-->
           </div>
         </div>
         <h3>{{member.name}}</h3>
