@@ -7,7 +7,7 @@
 - name: Laboratori
   path: portfolio.html
   section_id: portfolio
-- name: Ultimi Eventi
+- name: Scuole
   path: blog/
   section_id: blog
 - name: Contatti
