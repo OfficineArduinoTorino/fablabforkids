@@ -540,7 +540,8 @@ form input.error, form textarea.error {
 
 /*Footer */
 #footer {
-  background: #222;
+/*  background: #008d9d; */
+  background-image: image(images/fablabforkids-logo-footer.png);
   color: #999;
 }
 #footer h1 {

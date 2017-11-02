@@ -1,7 +1,8 @@
 <div id='footer'>
-  <div class='three spacing'></div>
+  <div class='spacing'></div>
   <div class='row'>
-    <div class='large-3 medium-3 columns'>
+
+    <div class='large-4 medium-3 columns'  align="center">
       <h1>
         <a href='index.html'>
           <img alt="" src="{{site.url}}/images/logo-white.svg" />
@@ -9,44 +10,27 @@
       </h1>
       <p>©2017 {{site.title}}. <br> Some rights reserved.</p>
       <div class='spacing'></div>
-      <div class='spacing'></div>
+
     </div>
-    <div class='large-3 medium-3 columns'>
+    <div class='large-4 medium-3 columns'>
       <div class='spacing'></div>
-      <div class='links'>
-        <h4>Some pages</h4>
+      <div class='links' align="center">
+
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">View some works here</a></li>
-          <li><a href="blog.html">Follow our blog</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="services.html">Our services</a></li>
+          <li>Pier +39 345 0713060</li>
+          <li>info@fablabforkids.it</li>
+          <li>Fablab Torino <br> via Egeo, 16 TO</li>
         </ul>
       </div>
-      <div class='spacing'></div>
     </div>
-    <div class='large-3 medium-3 columns'>
+
+    <div class='large-4 medium-3 columns'>
       <div class='spacing'></div>
-      <div class='links'>
-        <h4>Recent posts</h4>
-        <ul>
-          {% for post in site.posts %}
-            <li><a href="{{post.url}}">{{post.title}}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class='spacing'></div>
-    </div>
-    <div class='large-3 medium-3 columns'>
-      <div class='spacing'></div>
-      <h4>Contact us</h4>
-      <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@fablabforkids.it</li>
-        <li>Location: 41 Dean Street, London, UK</li>
-      </ul>
+
+
       <div class='spacing'></div>
       <ul class='socials'>
+        <div align="center">
         <li>
           <a href='http://facebook.com'>
             <i class='fa fa-facebook'></i>
@@ -67,12 +51,12 @@
             <i class='fa fa-tumblr'></i>
           </a>
         </li>
+      </div>
       </ul>
-      <div class='spacing'></div>
     </div>
   </div>
-  <div class='two spacing'></div>
 </div>
+
 
 <script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 <script src="{{ "/javascripts/jquery.appear.js" | prepend: site.baseurl }}" type="text/javascript"></script>
