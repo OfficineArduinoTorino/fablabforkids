@@ -541,14 +541,15 @@ form input.error, form textarea.error {
 /*Footer */
 #footer {
 /*  background: #008d9d; */
-  background-image: image(images/fablabforkids-logo-footer.png);
-  color: #999;
+  background-image: url(images/fablabforkids-logo-footer.png);
+  background-position:center center;
+  color: #fff;
 }
 #footer h1 {
   margin-bottom: 25px;
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-  color: #eee;
+  color: #fff;
 }
 #footer ul {
   margin: 0;
@@ -558,10 +559,10 @@ form input.error, form textarea.error {
   line-height: 1.875rem;
 }
 #footer ul a {
-  color: #999;
+  color: #fff;
 }
 #footer ul a:hover {
-  color: #eee;
+  color: #fff;
 }
 #footer ul.socials li {
   display: inline-block;
@@ -575,7 +576,7 @@ form input.error, form textarea.error {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   background: #eee;
-  color: #333;
+  color: #008d9d;
   text-align: center;
   font-size: 1.25rem;
   line-height: 3rem;
@@ -590,7 +591,7 @@ form input.error, form textarea.error {
 #footer input.email-address {
   padding: 5px 15px;
   height: 3.3rem;
-  background: #eee;
+  background: #fff;
 }
 
 #footer.fullwidth p.copyright {
