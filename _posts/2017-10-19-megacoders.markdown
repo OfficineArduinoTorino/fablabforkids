@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  TORINO Bunker Big Market
-date:   2017-05-06 10:20:05
+title:  TORINO MEGA CODERS
+date:   2017-10-19 10:20:05
 categories: design
 author: admin
 images:
   - images/@stock/blog-1.jpg
-  - images/@stock/blog-2.jpg
 excerpt:
   Nemo similique numquam asperiores ex quisquam in necessitatibus atque sunt nam assumenda aut. est voluptate necessitatibus et quaerat quo adipisci aliquid dicta maxime rerum quia. sit velit sit aut culpa qui et est repellendus sunt et qui blanditiis illo. quia non odit rerum dolorum nesciunt totam labore et quis aut nesciunt. eius dolorem autem aut aliquam eos dolor corrupti earum blanditiis ab. quia rerum aperiam voluptatem facilis voluptas quis eligendi sit
 ---

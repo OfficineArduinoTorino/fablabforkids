@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  TORINO Mini Maker Faire
-date:   2017-05-04 10:20:05
+date:   2017-05-27 10:20:05
 categories:
   - Logo Design
   - Tricks and Tips

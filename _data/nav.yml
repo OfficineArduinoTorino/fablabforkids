@@ -1,12 +1,12 @@
-- name: Home
-  path: index.html
-  section_id: home
 - name: Fablab Tour
   path: about.html
   section_id: about
 - name: Laboratori
   path: portfolio.html
   section_id: portfolio
-- name: Scuole
+- name: Per le scuole
+  path: scuole.html
+  section_id: blog
+- name: About
   path: scuole.html
   section_id: blog
