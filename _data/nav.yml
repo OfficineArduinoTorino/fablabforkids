@@ -6,7 +6,7 @@
   section_id: portfolio
 - name: Per le scuole
   path: scuole.html
-  section_id: blog
+  section_id: scuole
 - name: About
-  path: scuole.html
-  section_id: blog
+  path: about.html
+  section_id: about
