@@ -51,10 +51,9 @@ members:
 <div class='full'>
   <div class='row'>
     <div class='medium-8 columns'>
-      <h3>FabLab Tour</h3>
+      <h3>About</h3>
       <div class='spacing'></div>
-      <p>La visita guidata e interattiva alla scoperta del laboratorio che ogni inventore vorrebbe!<br>
-        Il motto del Fablab Torino è: se puoi immaginarlo, qui puoi realizzarlo. </p>
+      <p>VEDI CARTELLA STAMPA!!!</p>
         <p> Scopriremo (e proveremo!) insieme le meraviglie che si possono trovare in un fablab:
           stampanti 3D, macchinari, robot e invenzioni straordinarie.<br>
         In più possiamo organizzare per la ta classe una delle nostre challenge educative, per sviluppare:
@@ -66,7 +65,7 @@ members:
              Per prenotare un tour, invece, compila il <a href="https://docs.google.com/a/officine.cc/forms/d/e/1FAIpQLSdBGeyzB8BCIluKeKd6pt6lTrARi1il5aNIexi6-WZSFXvutA/viewform">form</a> !</p>
     </div>
     <div class='medium-4 columns'>
-      <h3>il Fablab di Torino</h3>
+      <h3>Contatti</h3>
       <div class='spacing'></div>
       <div class='mod modBarGraph'>
         <ul class="bars">
@@ -88,35 +87,9 @@ members:
 <hr>
 <div class='two spacing'></div>
 <div class='row'>
-  <div class='large-12 columns'>
-    <h3>Challenge</h3>
-    <div class='spacing'></div>
+
+
+  <div class="col-md-12" class="wpb_map_wraper">
+    <h3 style="font-weight: 300" align="center"> Dove trovarci:<br><br></h3>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1S7GON_1saF0HZ8S2CjUq64bsMrI" width=100% height="300"></iframe><br><br>
   </div>
-</div>
-<div class='row'>
-  {% for member in page.members %}
-    <div class='small-1 medium-4 large-4 columns'>
-      <div class='mod modTeamMember style-2'>
-        <div class='member'>
-          <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
-          <div class='overlay'>
-            <!--<ul class='socials'>
-              {% for social in member.socials %}
-                <li>
-                  <a href='{{social.url}}'>
-                    <i class='{{social.icon_class}}'></i>
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>!-->
-          </div>
-        </div>
-        <h3>{{member.name}}</h3>
-        <p class='position'>{{member.position}}</p>
-        <p>{{member.desc}}</p>
-        <div class='two spacing'></div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-<div class='three spacing'></div>

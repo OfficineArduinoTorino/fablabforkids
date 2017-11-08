@@ -1,22 +1,39 @@
 ---
 layout: default
-section_id: scuole
+section_id: Tour
+slides:
+  - bg: images/@stock/boxed-slide-7.jpg
+  - bg: images/@stock/boxed-slide-8.jpg
+  - bg: images/@stock/boxed-slide-9.jpg
+  - bg: images/@stock/boxed-slide-10.jpg
+  - bg: images/@stock/boxed-slide-11.jpg
+
+skills:
+  - title: Formazione & Workshop
+    percent: 35
+  - title: Prototipazione rapida
+    percent: 35
+  - title: Community
+    percent: 20
+  - title: Eventi
+    percent: 10
+
 members:
-  - name: Partecipa a MEGAcoders
-    position: Evento della European Code Week
+  - name: MAKER’S EGG QUEST
+    position: 6-14 anni
     desc:
       Un uovo deve essere salvato, come..?<br> A questo dovrete pensarci tu e la tua squadra.<br> Durante la Egg Quest avrete a disposizione un uovo e diversi materiali. Questa challenge consente di mettersi alla prova con alcuni principi dinamici, affiancandoli con una parte più manuale e creativa basata esclusivamente sulle proprie scelte, che porteranno una squadra alla vittoria.<br> Occhio, però, il rischio dell’effetto frittata è dietro l’angolo!
-    avatar: images/@stock/megacoders.jpg
+    avatar: images/@stock/member-1.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
       - icon_class: fa fa-facebook
         url: http://facebook.com
-  - name: Proposte Pon v2.0
-    position: Proposte per le progetualità scolastiche
+  - name: AIR POWERED CAR RACE
+    position: 6-14 anni
     desc:
       3, 2, 1… Si soffia! Durante l’Air Powered car race costruirete la vostra monoposto alimentata a palloncini, ma state tranquilli, non bisogna essere meccanici o ingegneri. Basta essere makers creativi e ingegnosi, che sappiano sfruttare i materiali di recupero e il lavoro di un team.<br> Partecipa alla corsa più scoppiettante del Fablab. Velocità, precisione e taaaaaaaaaaanto fiato.
-    avatar: images/@stock/pon.jpg
+    avatar: images/@stock/member-2.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
@@ -24,23 +41,11 @@ members:
         url: http://facebook.com
       - icon_class: fa fa-dribbble
         url: http://dribbble.com
-  - name: Offerta formativa sett2017
-    position: Proposte per le progettualità scolastiche
+  - name: MARSHMALLOW CHALLENGE
+    position: 6-14 anni
     desc:
       Un marshmallow e una manciata di spaghetti per vincere una gara con la gravità! <br> Questa sfida permette di sviluppare molteplici competenze, lavorare all’interno di un gruppo, pensare in modo propositivo e collaborare per raggiungere un obiettivo comune. <br>Durante la Marshmallow Challenge bisognerà costruire una torre di spaghetti che sostiene un marshmallow. Un modo divertente (e appiccicoso) per mettersi in gioco con rapidità, creatività e inventiva, per trovare sempre nuove soluzioni.
-    avatar: images/@stock/off.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-tumblr
-        url: http://tumblr.com
-  - name: Offerta formativa sett2017
-    position: Proposte per le progettualità scolastiche
-    desc:
-      Un marshmallow e una manciata di spaghetti per vincere una gara con la gravità! <br> Questa sfida permette di sviluppare molteplici competenze, lavorare all’interno di un gruppo, pensare in modo propositivo e collaborare per raggiungere un obiettivo comune. <br>Durante la Marshmallow Challenge bisognerà costruire una torre di spaghetti che sostiene un marshmallow. Un modo divertente (e appiccicoso) per mettersi in gioco con rapidità, creatività e inventiva, per trovare sempre nuove soluzioni.
-    avatar: images/@stock/off.jpg
+    avatar: images/@stock/member-3.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
@@ -52,28 +57,69 @@ members:
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-12 columns'>
-      <h3>Offerta scuole</h3>
+
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in page.slides %}
+            <div class='slide'>
+              <img alt="" src="{{slide.bg}}" />
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class='medium-4 columns'>
+      <h3>il Fablab di Torino</h3>
       <div class='spacing'></div>
-      <p>Fablab for kids offre vari corsi e percorsi per le scuole primarie e secondarie.<br>
-Vogliamo però intendere ogni proposta come una traccia da adattare ad ogni scuola per valorizzarne le specificità e qualità e non costruire solo occasioni di collaborazione estemporanee.
-    </p>
-          <p> Per chiedere magiori info scrivi a <a href="mailto:info@fablabforkids.it">info@fablabforkids.it</a> !</p>
+      <div class='mod modBarGraph'>
+        <ul class="bars">
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </div>
+
+<div class='full'>
+  <div class='row'>
+<div class='medium-12 columns'>
+  <p>La visita guidata e interattiva alla scoperta del laboratorio che ogni inventore vorrebbe!
+    Il motto del Fablab Torino è: se puoi immaginarlo, qui puoi realizzarlo. <br>
+    Scopriremo (e proveremo!) insieme le meraviglie che si possono trovare in un fablab:
+      stampanti 3D, macchinari, robot e invenzioni straordinarie.<br>
+    In più possiamo organizzare per la ta classe una delle nostre challenge educative, per sviluppare:
+  <li> soluzioni creative</li>
+  <li> collaborazione & lavoro di gruppo</li>
+  <li> problem solving</li>
+</p>
+      <p> Per chiedere magiori info scrivi a <a href="mailto:info@fablabforkids.it">info@fablabforkids.it</a> !<br>
+         Per prenotare un tour, invece, compila il <a href="https://docs.google.com/a/officine.cc/forms/d/e/1FAIpQLSdBGeyzB8BCIluKeKd6pt6lTrARi1il5aNIexi6-WZSFXvutA/viewform">form</a> !</p>
+</div>
+</div>
+</div>
+
 <div class='two spacing'></div>
 <hr>
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
-    <h3>Proposte</h3>
+    <h3>Challenge</h3>
     <div class='spacing'></div>
   </div>
 </div>
 <div class='row'>
   {% for member in page.members %}
-    <div class='small-1 medium-3 large-3 columns'>
+    <div class='small-1 medium-4 large-4 columns'>
       <div class='mod modTeamMember style-2'>
         <div class='member'>
           <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />

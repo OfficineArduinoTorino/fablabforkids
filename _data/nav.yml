@@ -1,6 +1,6 @@
 - name: Fablab Tour
-  path: about.html
-  section_id: about
+  path: tour.html
+  section_id: Tour
 - name: Laboratori
   path: portfolio.html
   section_id: portfolio
