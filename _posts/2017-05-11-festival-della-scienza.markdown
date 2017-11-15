@@ -3,13 +3,16 @@ layout: post
 title:  ROMA Festival della Scienza
 date:   2017-05-11 10:20:05
 categories:
-  - Illustrations
-  - Photography
+  - events
 tags:
-  - news
-author: admin
+author: plv
 images:
   - images/@stock/blog-4.jpg
+  - images/@stock/blog-8.jpg
+  - images/@stock/blog-9.jpg
 excerpt:
-  Ipsum non qui impedit odit. aliquid distinctio nam velit et atque. quam aspernatur beatae quod necessitatibus consequuntur molestiae qui. dolorum doloremque dolorum corrupti similique nobis cum. repellendus magni nihil sed sint qui nisi tempore rerum aliquid accusamus culpa quo. et doloremque est et quisquam. neque et commodi veniam minus temporibus ipsam
+  I Foyer dell'auditorium parco della musica di Roma si sono trasformati in un laboratorio scientifico! Tra Arduino, foto, giochi grafici e paleontologia i ragazzi imparano divertendosi!
+
 ---
+
+I Foyer dell'auditorium parco della musica di Roma si sono trasformati in un laboratorio scientifico! Tra Arduino, foto, giochi grafici e paleontologia i ragazzi imparano divertendosi!

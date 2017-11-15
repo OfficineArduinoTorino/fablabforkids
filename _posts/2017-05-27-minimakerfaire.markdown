@@ -3,14 +3,21 @@ layout: post
 title:  TORINO Mini Maker Faire
 date:   2017-05-27 10:20:05
 categories:
-  - Logo Design
-  - Tricks and Tips
+  - events
 tags:
-  - design
-  - photography
-author: admin
+  - makerfaire
+author: plv
 images:
   - images/@stock/blog-3.jpg
+  - images/@stock/blog-6.jpg
+  - images/@stock/blog-7.jpg
 excerpt:
-  Qui eaque voluptatem sunt dicta vel aut. aut aut molestiae distinctio. laborum iure molestiae aut aut incidunt aliquid qui ea nemo consequatur animi delectus perspiciatis quas. porro consequatur rerum quis commodi et ipsum error quia aspernatur. nisi incidunt dolores tenetur ut mollitia quia ipsam aut. sit ut eius ut quae mollitia dolorum praesentium labore deleniti similique alias tempora quod. a ratione velit ut repudiandae dolor eaque dignissimos nobis
+  Le Maker Faire sono giornate dedicate a tutte le forme della creatività e dell’intraprendenza, un evento dove chiunque può mostrare  agli altri il frutto della sua creatività e condividere quello che sa. Lo scopo delle Maker Faire è intrattenere, informare, e dare forza alla comunità dei maker. L’età non conta, la formazione nemmeno:conta solo l’ingegno e la voglia di fare.
+
 ---
+
+Il 27 e 28 maggio si è svolta la quarta edizione di Torino Mini Maker Faire!
+
+I nostri laboratori per piccoli maker non potevano mancare! :D
+
+Abbiamo assemblato costruzioni, creato progetti interattivi, costruito spinner e lampade Minecraft (con degli assistenti d'eccezione: i ragazzi che hanno già frequentato i nostri laboratori per l'occasione si sono trasformati in bravissimi insegnanti!) e girato cartoni animati con pennarelli e plastilina.
