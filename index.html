@@ -16,22 +16,26 @@ slides:
     link: "http://codeweektorino.eu"
 
 works:
+  - image: images/@stock/one-page-work-12.jpg
+    title: TermoforMANIA
+    desc: stampi personalizzati <br> per ghiaccio e cioccolato
+    class: brand
+    link: portfolio/portfolio-termoformania.html
   - image: images/@stock/one-page-work-4.jpg
-    title: SUMO Robots
-    desc: Design &amp; Development
+    title: robokoding
+    desc: battaglie tra robot a colpi di codice!
     class: robotics-coding
+    link: portfolio/portfolio-robokoding.html
   - image: images/@stock/one-page-work-2.jpg
     title: Robottino.cc
-    desc: Design &amp; Development
+    desc: testa rotante interattiva <br> con cervello Arduino
     class: web-design print
-  - image: images/@stock/one-page-work-1.jpg
-    title: Inventa con littleBits
-    desc: Design &amp; Development
-    class: brand
-  - image: images/@stock/one-page-work-3.jpg
-    title: Spinner DIY
-    desc: Design &amp; Development
+    link: portfolio/portfolio-robottino.html
+  - image: images/@stock/one-page-work-6.jpg
+    title: Lampada di MyCraft
+    desc: illumina la notte col tuo blocco luminoso
     class: development
+    link: portfolio/portfolio-mycraft.html
 
 services:
   - icon_class: fa fa-reddit-alien
@@ -215,12 +219,11 @@ clients:
         <p align="center">Vuoi conoscere i prossimi laboratori in programma?</p>
       </div>
       <div class='medium-12 large-12 columns' align="center">
-      <a class='button' target="_blank" href='http://arduino.us5.list-manage.com/subscribe/post?u=0140d17584d1c002bcd94d0e8&id=906bb8b6a6'>Iscriviti alla newsletter</a>
+      <a class='button' target="_blank" href='https://fablabforkids.us5.list-manage.com/subscribe/post?u=0140d17584d1c002bcd94d0e8&amp;id=906bb8b6a6'>Iscriviti alla newsletter</a>
       </div>
     </div>
   </div>
 </div>
-
 
 <div class='two spacing'></div>
 <div class='row'>
@@ -236,7 +239,7 @@ clients:
     <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
       {% for work in page.works %}
         <li class='{{work.class}}'>
-          <a href='portfolio-item.html'>
+          <a href='{{work.link}}'>
             <img alt="" src="{{work.image}}" />
             <div class='overlay' style='background: rgba(0, 152, 177, 0.8);'>
               <div class='thumb-info'>

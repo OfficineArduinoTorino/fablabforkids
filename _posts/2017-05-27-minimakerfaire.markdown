@@ -18,6 +18,6 @@ excerpt:
 
 Il 27 e 28 maggio si è svolta la quarta edizione di Torino Mini Maker Faire!
 
-I nostri laboratori per piccoli maker non potevano mancare! :D
+I nostri laboratori per piccoli maker non potevano mancare!
 
 Abbiamo assemblato costruzioni, creato progetti interattivi, costruito spinner e lampade Minecraft (con degli assistenti d'eccezione: i ragazzi che hanno già frequentato i nostri laboratori per l'occasione si sono trasformati in bravissimi insegnanti!) e girato cartoni animati con pennarelli e plastilina.
