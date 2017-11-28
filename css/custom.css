@@ -1,0 +1,76 @@
+	*{
+	font-family: 'Open Sans', sans-serif;
+	}
+	h3 {
+	font-weight: 800;
+	}
+	.panel-title {
+	font-size: 26px;
+	background-color: #50A3F3;
+	}
+	.panel-primary{
+	border-color: #50A3F3;
+	}
+	.panel-body{
+	background-color: #f2f4f5;
+	}
+	.panel-heading{
+	background-color: #50A3F3;
+	}
+	.panel > .panel-heading {
+	background-image: none;
+	background-color: #50A3F3;
+	color: white;
+	}
+
+	h1{
+	font-size: 52px;
+	font-weight: 700;
+	color: #00929f;
+	}
+	h5{
+	font-weight: 800;
+	}
+	.piede{
+	background-color: #fff;
+	color: white;
+	}
+	.piede a{
+	color: white;
+	font-weight: 600;
+	}
+	.piede p{
+	font-weight: 300;
+	}
+	.btn-fablab4kids {
+	color: #fff;
+	background-color: #50A3F3;
+	border-color: #4cae4c;
+	}
+		.btn-fablab4kids:hover {
+		color: #fff;
+		background-color: #2F79B9;
+	}
+	#mc_embed_signup{background:#EEEEEE; clear:left;  width:100%;}
+	.panel > .panel-heading{
+		background-color: #F2AB3A;
+	}
+	.panel-title {
+	font-size: 26px;
+	background-color: #F2AB3A;
+	}
+
+	.jumbotron{
+		margin-bottom: 0px;
+	/*	background-image: url(img/jumbokids.jpg);*/
+		background-position: 0% 25%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		text-shadow: black 0.3em 0.3em 0.3em;
+	}
+
+	#header-img {
+  width: 100%;
+  height: auto;
+}

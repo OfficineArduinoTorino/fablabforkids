@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+
+	<body>
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 labo">
+					<div class="row">
+						<h1 style="font-weight:800">{{page.title}}</h1>
+						<br>
+							<img src="{{page.fotografia}}" width="400px" class="img-responsive img-rounded">
+							<hr>
+					<h2>{{page.anni}}</h2>
+					<p>
+					{{content}}
+					</p>
+					<hr>
+				</div>
+				</div>
+								<div class="col-md-4">
+					<div style="background-color: #EEEEEE;padding:20px">
+						<h3 style="font-weight:700;color:#50A3F3">NEWSLETTER</h3>
+						<p>Ricevi aggiornamenti sui prossimi laboratori in programma:
+						</p>
+
+						<!-- Begin MailChimp Signup Form -->
+						<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+						<div id="mc_embed_signup">
+						<form action="//arduino.us5.list-manage.com/subscribe/post?u=0140d17584d1c002bcd94d0e8&amp;id=906bb8b6a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate  style="padding:0px;margin:0px">
+						    <div id="mc_embed_signup_scroll">
+
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+						    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0140d17584d1c002bcd94d0e8_906bb8b6a6" tabindex="-1" value=""></div>
+						    <div class="clear"><input type="submit" value="Iscriviti" name="subscribe" id="mc-embedded-subscribe" class="btn btn-fablab4kids"></div>
+						    </div>
+						</form>
+						</div>
+
+						<!--End mc_embed_signup-->
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		{% include footer.html %}
+
+
+		</body>
+	</html>

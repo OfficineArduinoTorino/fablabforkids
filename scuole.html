@@ -1,86 +1,28 @@
 ---
-layout: default
-section_id: scuole
-members:
-  - name: Partecipa a MEGAcoders
-    position: Evento della European Code Week
-    desc:
-      Un Workshop STEAM <br> <b>- science technology engineering arts mathematics -</b> di 3 ore organizzato per gruppi classe.<br><br> <a href="http://codeweektorino.eu" target="_blank">QUESTA </a>l'edizione passata.
-    avatar: images/@stock/megacoders.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-  - name: Pon v2.0
-    position: Proposte per le progettualità scolastiche
-    desc:
-      A <a href="{{site.baseurl}}/download/PROPOSTE_PON_v2.pdf">questo</a> link puoi trovare le nostre proposte pensate per rispondere esplicitamente ai progetti <b>PON sul Pensiero computazionale e creatività digitale</b>. <br><br>Per maggiori info puoi cliccare:<a href="http://www.istruzione.it/pon/"> istruzione.it/pon</a>
-    avatar: images/@stock/pon.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-dribbble
-        url: http://dribbble.com
-  - name: Offerta formativa sett2017
-    position: Proposte per le progettualità scolastiche
-    desc:
-      <a href="{{site.baseurl}}/download/F4K_offerta_formativa17-18.pdf">QUI</a> puoi trovare il documento riassuntivo dell'offerta formativa di Fablab for Kids per l'inizio dell'anno scolastico 2017-2018. <br><br>Inviaci una <a href="mailto:info@fablabforkids.it">mail</a> o iscriviti alla news letter per tutti gli aggiornamenti!
-    avatar: images/@stock/off.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-tumblr
-        url: http://tumblr.com
+layout: scuole
 ---
 
-<div class='full'>
-  <div class='row'>
-    <div class='medium-12 columns' align="center">
-      <p style='font-size: 1.3rem;'> Fablab for Kids offre vari corsi e percorsi per le scuole primarie e secondarie.<br>
-Vogliamo però intendere ogni proposta come una traccia da adattare ad ogni scuola per valorizzarne le specificità e qualità e non costruire solo occasioni di collaborazione estemporanee.
-    </p>
-          <p> Per chiedere maggiori info scrivi a <a href="mailto:info@fablabforkids.it">info@fablabforkids.it</a> !</p>
-    </div>
-  </div>
-</div>
+<div class="col-md-12">
+  <h3 style="font-weight: 300" align="center">Fablab for kids offre vari corsi e percorsi per le scuole primarie e secondarie.<br>
+    Vogliamo però intendere ogni proposta come una traccia da adattare ad ogni scuola per valorizzarne le specificità e qualità
+  e non costruire solo occasioni di collaborazione estemporanee.
+</h3>
+<br><br></div>
 
-<hr>
-<div class='two spacing'></div>
-<div class='row'>
-  <div class='large-12 columns'>
-    <h3>Proposte</h3>
-    <div class='spacing'></div>
-  </div>
-</div>
-<div class='row'>
-  {% for member in page.members %}
-    <div class='small-1 medium-4 large-4 columns'>
-      <div class='mod modTeamMember style-2'>
-        <div class='member'>
-          <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
-          <div class='overlay'>
-            <!--<ul class='socials'>
-              {% for social in member.socials %}
-                <li>
-                  <a href='{{social.url}}'>
-                    <i class='{{social.icon_class}}'></i>
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>!-->
-          </div>
+
+<div class="row">
+  {% for scuola in site.categories.scuole limit: 12 %}
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{scuola.title}}</h3>
         </div>
-        <h3>{{member.name}}</h3>
-        <p class='position'>{{member.position}}</p>
-        <p>{{member.desc}}</p>
-        <div class='two spacing'></div>
+        <div class="panel-body">
+          <img src="{{baseurl}}/{{scuola.fotografia}}" width="100%" class="img-responsive img-rounded">
+          <h4>{{scuola.meta}}</h4>
+          {{scuola.content}}
+        </div>
       </div>
     </div>
   {% endfor %}
 </div>
-<div class='three spacing'></div>
