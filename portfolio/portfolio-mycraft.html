@@ -1,0 +1,53 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-14.jpg
+  - images/@stock/medium-work-15.jpg
+  - images/@stock/medium-work-16.jpg
+  - images/@stock/medium-work-13.jpg
+  - images/@stock/medium-work-17.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Lampada di MyCraft</h3>
+      <p>
+        Dalla realtà virtuale di mycraft al tuo comodino: una lampada personalizzata e autocostruita per illuminare le notti più spaventose.
+        <br>Costruiremo un blocco mycraft con le trasparenze necessarie per illuminare la stanza grazie a un LED luminoso posto al suo interno.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          8-14
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          Maker Faire Rome, dic 2017
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

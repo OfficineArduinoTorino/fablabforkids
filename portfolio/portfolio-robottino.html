@@ -1,0 +1,55 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-3.jpg
+  - images/@stock/medium-work-4.jpg
+  - images/@stock/medium-work-5.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Robottino.cc</h3>
+      <p>Testa rotante interattiva con cervello Arduino.<br><br>
+        Robottino.cc è una testa rotante programmabile: la scheda Arduino sulla schiena consente di personalizzare i comportamenti e le intereazioni. <br>
+         Un’introduzione alla scoperta dei concetti chiave della robotica e della programmazione, spiegati ad altezza di bambino.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          6-11
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='http://robottino.cc/' target="_blank">Robottino.cc</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

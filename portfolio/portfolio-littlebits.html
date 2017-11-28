@@ -1,0 +1,55 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-1.jpg
+  - images/@stock/medium-work-2.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Inventa con littlebits</h3>
+      <p>Moduli elettronici per grandi  invenzioni<br><br>
+        Con littleBits le possibilità sono tantissime: ci sono ruote, pulsanti, led colorati, effetti sonori…
+        tutto quello che serve per realizzare grandi invenzioni! <br> Nessuna saldatura, nessun collegamento elettrico,
+        nessuna programmazione.<br>Solo taaanto divertimento e spazio per la creatività!
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          6-11
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='https://littlebits.cc' target="_blank">littlebits.cc</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

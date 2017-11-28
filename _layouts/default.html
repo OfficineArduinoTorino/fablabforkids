@@ -1,60 +1,18 @@
- {% include head.html %}
-<body>
- {% include header.html %}
+<!DOCTYPE html>
+<html>
 
- {% include menu.html %}
+  {% include head.html %}
 
- {% include sottopancia.html %}
+  <body>
 
+    {% include header.html %}
 
-<div class="container" style="background-color: #0099F">
-	<div class="row" align="center">
-    <div class="col-sm-12">
-      <br><br><a href="{{site.baseurl}}/download/F4K_pieghevole.pdf" target=”_blank”><img src="{{site.baseurl}}/img/scarica.jpg" width="100%"></a>
-      <br><br><br>
-      </div>
-
-      <div class="col-sm-6">
-        <a href="{{site.baseurl}}/follie/"><img src="{{site.baseurl}}/img/follie.jpg" width="100%"></a>
-        <p><br><h4> 8-11 anni</h4> <br>
-          Approccio alla tecnologia // Principi base della programmazione <br>
-          Disegno e rappresentazione delle proprie idee // Principi dell’animazione <br>
-          Creatività digitale
-        </p>
-        </div>
-
-      <div class="col-sm-6">
-        <a href="{{site.baseurl}}/apprendista/"><img src="{{site.baseurl}}/img/apprendista.jpg" width="100%"></a>
-        <p><br><h4> 11-14 anni</h4><br>
-          Programmazione, logica e matematica // Disegno e progettazione <br>
-          Pensiero computazionale e problem solving //  Elettronica e robotica<br>
-          Fabbricazione digitale, stampa 3D e taglio laser
-      </p>
+    <div id='main' role='main'>
+      {{ content }}
     </div>
 
-	</div>
+    {% include footer.html %}
 
-
-	<hr>
-</div>
-</div>
-<div class="container">
-	<div class="row" align="center">
-		<h1>Laboratori</h1>
-		<br>
-	</div>
-	<div class="row">
-		{{content}}
-	</div>
-</div>
-
-
-
-{% include footer.html %}
-
-
-
-
-</body>
+  </body>
 
 </html>

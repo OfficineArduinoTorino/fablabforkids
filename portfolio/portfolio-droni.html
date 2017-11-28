@@ -1,0 +1,54 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-33.jpg
+  - images/@stock/medium-work-34.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Volare si può</h3>
+      <p>
+        Scuola di volo per piloti di Droni!<br>
+        Diventare piloti provetti si può!
+        Con i nostri laboratori bastano due ore per scoprire come funzionano questi fantastici robot volanti e farli sfrecciare nell’aria alla velocità della luce, in tutta sicurezza.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          11-14
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
