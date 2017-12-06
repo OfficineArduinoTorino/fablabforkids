@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Firenze Festival dei Bambini
+title:  Firenze Festival dei Bambini '16
 date:   2016-04-17 10:20:05
 categories:
   - events

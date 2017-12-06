@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  TORINO Mini Maker Faire
+title:  TORINO Mini Maker Faire 2017
 date:   2017-05-27 10:20:05
 categories:
   - events
