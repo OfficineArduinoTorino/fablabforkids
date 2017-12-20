@@ -9,7 +9,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Gems
-plugins: [jekyll-paginate]
+# plugins_dir: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
