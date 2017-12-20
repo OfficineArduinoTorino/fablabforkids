@@ -14,7 +14,7 @@ images:
   - images/@stock/blog-25.jpg
   - images/@stock/blog-26.jpg
 excerpt:
-  Sono più di 400 i bambini che hanno partecipato a MEGAcoders - Europe Code Week 2017! Una mattinata di laboratori STEAM per alunni delle scuole elementari e medie, alla scoperta del coding ma non solo:robotica, elettronica, giochi unplugged...
+La Maker Faire Rome: la fiera dell'ingegno più grande d'Italia.
 
 ---
 
