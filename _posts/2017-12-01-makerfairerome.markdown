@@ -18,8 +18,9 @@ excerpt:
 
 ---
 
-Sono più di 400 i bambini che hanno partecipato a [MEGAcoders](http://codeweektorino.eu) - Europe Code Week 2017! Una mattinata di laboratori STEAM per alunni delle scuole elementari e medie, alla scoperta del coding ma non solo: robotica, elettronica, giochi unplugged...
+La Maker Faire Rome è la fiera dell'ingegno più grande d'Italia.
 
-37 i tavoli di attività per comprendere come funziona la tecnologia che ci circonda, giocando e sperimentando in prima persona! Un grande grazie a [Dschola - le scuole per le scuole](http://www.associazionedschola.it) e [Toolbox Coworking](http://www.toolboxoffice.it), che insieme a Fablab for Kids hanno reso possibile questa giornata, col supporto di [Europe Code Week](http://www.codeweek.eu) e Google.
+Potevamo forse mancare? Anche quest'anno abbiamo animato l'area kids con la cupola geodetica di Cannucce e Robottoni, i cartoni animati di Spasso-Uno e i laboratori Spinner DIY e MyCraft Lamp - con oltre 50 lampade costruite!
 
-Ma soprattutto,ringraziamo i tutor: centinaia tra scuole, studenti, realtà, associazioni e persone riunite sotto lo stesso tetto per condividere e trasmettere il loro sapere!
+
+Grazie a tutti coloro che sono passati a trovarci. Alla prossima Maker Faire!
