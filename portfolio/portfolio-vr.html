@@ -1,0 +1,58 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-35.jpg
+  - images/@stock/medium-work-36.jpg
+  - images/@stock/medium-work-37.jpg
+  - images/@stock/medium-work-38.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Cose dell'altro mondo</h3>
+      <p>
+        Realtà Aumentata vs. Realtà Virtuale<br><br>
+        Cosa c’è oltre allo schermo? Quante altre realtà virtuali esistono?
+        Ci immergeremo in una realtà virtuale grazie a pennarelli, ad alcuni visori fai-da-te e a sensori di movimento.
+        Un modo nuovo per prendere dimestichezza con i principi della realtà virtuale, sperimentandoli in prima persona.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          11-14
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='https://vr.google.com/cardboard/' target="_blank">google cardboard</a><br>
+      <a class='button small' href='https://www.oculus.com' target="_blank">oculus rift</a>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

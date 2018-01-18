@@ -3,33 +3,21 @@ layout: default
 section_id: about
 
 members:
-  - name: MAKER’S EGG QUEST
-    position: 6-14 anni
+  - name: Pier
+    position: 6 anni nel 1996
     desc:
-      Un uovo deve essere salvato, come..?<br> A questo dovrete pensarci tu e la tua squadra.<br> Durante la Egg Quest avrete a disposizione un uovo e diversi materiali. Questa challenge consente di mettersi alla prova con alcuni principi dinamici, affiancandoli con una parte più manuale e creativa basata esclusivamente sulle proprie scelte, che porteranno una squadra alla vittoria.<br> Occhio, però, il rischio dell’effetto frittata è dietro l’angolo!
-    avatar: images/@stock/member-1.jpg
+      Project Management
+    avatar: images/@stock/babypier.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
       - icon_class: fa fa-facebook
         url: http://facebook.com
-  - name: AIR POWERED CAR RACE
-    position: 6-14 anni
+  - name: Cristina
+    position: 5 anni nel 1995
     desc:
-      3, 2, 1… Si soffia! Durante l’Air Powered car race costruirete la vostra monoposto alimentata a palloncini, ma state tranquilli, non bisogna essere meccanici o ingegneri. Basta essere makers creativi e ingegnosi, che sappiano sfruttare i materiali di recupero e il lavoro di un team.<br> Partecipa alla corsa più scoppiettante del Fablab. Velocità, precisione e taaaaaaaaaaanto fiato.
-    avatar: images/@stock/member-2.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-dribbble
-        url: http://dribbble.com
-  - name: MARSHMALLOW CHALLENGE
-    position: 6-14 anni
-    desc:
-      Un marshmallow e una manciata di spaghetti per vincere una gara con la gravità! <br> Questa sfida permette di sviluppare molteplici competenze, lavorare all’interno di un gruppo, pensare in modo propositivo e collaborare per raggiungere un obiettivo comune. <br>Durante la Marshmallow Challenge bisognerà costruire una torre di spaghetti che sostiene un marshmallow. Un modo divertente (e appiccicoso) per mettersi in gioco con rapidità, creatività e inventiva, per trovare sempre nuove soluzioni.
-    avatar: images/@stock/member-3.jpg
+      Social Media
+    avatar: images/@stock/babycri.jpg
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com
@@ -37,6 +25,53 @@ members:
         url: http://facebook.com
       - icon_class: fa fa-tumblr
         url: http://tumblr.com
+  - name: Sofia
+    position: 6-14 anni
+    desc:
+      Teacher
+    avatar: images/@stock/babysofi.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-dribbble
+        url: http://dribbble.com
+  - name: Nick
+    position: 6-14 anni
+    desc:
+      Teacher
+    avatar: images/@stock/babynick.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+  - name: Djibril
+    position: 6-14 anni
+    desc:
+      Tutor
+    avatar: images/@stock/babydjbril.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-dribbble
+        url: http://dribbble.com
+  - name: Davide
+    position: 6-14 anni
+    desc:
+      Contents
+    avatar: images/@stock/babyda.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-tumblr
+        url: http://tumblr.com
+
 ---
 
 <div class='full'>
@@ -69,7 +104,8 @@ Fablab for Kids, grazie alla collaborazione con le comunità del <b>Fablab (Tor
         su facebook
       </h4>
       <p> <a href="https://www.facebook.com/fablabforkids/" target="_blank">Fablab for Kids</a><br>
-      <a href="https://www.facebook.com/fablabtorino/" target="_blank">Fablab Torino</a></p>
+      <a href="https://www.facebook.com/fablabtorino/" target="_blank">Fablab Torino</a><br>
+      <a href="https://www.facebook.com/techlabtl/" target="_blank">Techlab</a></p>
       <h4 style=''>
         su flickr
       </h4>
@@ -89,7 +125,36 @@ Fablab for Kids, grazie alla collaborazione con le comunità del <b>Fablab (Tor
 
 <div class='two spacing'></div>
 <hr>
-<div class='two spacing'></div>
+
+<!-- <div class='row'>
+  <h3 style="font-weight: 300" align="center"> La nostra squadra:<br><br></h3>
+  {% for member in page.members %}
+    <div class='small-4 medium-4 large-2 columns'>
+      <div class='mod modTeamMember style-2' align="center">
+        <div class='member'>
+          <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+          <div class='overlay'>
+            <ul class='socials'>
+              {% for social in member.socials %}
+                <li>
+                  <a href='{{social.url}}'>
+                    <i class='{{social.icon_class}}'></i>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.position}}</p>
+        <p>{{member.desc}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<hr> !-->
 <div class='row'>
 
 
@@ -97,4 +162,6 @@ Fablab for Kids, grazie alla collaborazione con le comunità del <b>Fablab (Tor
     <h3 style="font-weight: 300" align="center"> Dove ci trovi:<br><br></h3>
       <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1S7GON_1saF0HZ8S2CjUq64bsMrI" width=100% height="300"></iframe><br><br>
   </div>
+
+
 </div>
