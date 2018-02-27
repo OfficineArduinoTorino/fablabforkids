@@ -1,10 +1,10 @@
-- name: Fablab Tour
+- name: Visita il Fablab
   path: tour.html
   section_id: Tour
 - name: Laboratori
   path: portfolio.html
   section_id: portfolio
-- name: Per le scuole
+- name: Offerta Scuole
   path: scuole.html
   section_id: scuole
 - name: About
