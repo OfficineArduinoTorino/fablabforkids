@@ -5,7 +5,7 @@ slides:
   - bg: images/@stock/boxed-slide-14.jpg
     title: 6-14 anni
     tagline: Raspberry JAM!
-    link: "https://www.eventbrite.it/e/biglietti-raspberry-pi-jam-fablab-for-kids-43600796155"
+    link: "https://www.flickr.com/photos/fablab4kids/albums/72157694145620725"
   - bg: images/@stock/boxed-slide-13.jpg
     title: 8-11 anni
     tagline: info & iscrizioni
@@ -97,7 +97,7 @@ clients:
         <div class='slides'>
           {% for slide in page.slides %}
             <div class='slide'>
-              <img alt="" src="{{slide.bg}}" />
+              <a href={{slide.link}} target="_blank"><img alt="" src="{{slide.bg}}"/></a>
               <div class='caption'>
                 <p>{{slide.title}}</p>
                 <a href={{slide.link}} target="_blank"><h2>{{slide.tagline}}</h2></a>
