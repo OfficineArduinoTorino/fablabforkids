@@ -1,0 +1,59 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-43.jpg
+  - images/@stock/medium-work-44.jpg
+  - images/@stock/medium-work-45.jpg
+  - images/@stock/medium-work-46.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Raspberry Pi JAM</h3>
+      <p>
+        una marmellata di invenzioni<br><br>
+        Raspberry Pi è il computer piccolo e facile da programmare, ideale per imparare il codice. Raspberry Jam è l'evento dedicato a scoprire quante cose e invenzioni straordinarie si possono fare con una Raspberry.<br>
+        Come (S)Passo-Uno, il tavolo magico per registrare animazioni in stop motion, e ancora: smart mirror, console per videogiochi e tanto altro.<br>
+        Con Raspberry Pi si può anche giocare a Minecraft, creare giochi e animazioni con Scratch, perfino suonare e comporre musica con il codice! Le possibilità sono tantissime, non resta che provare.
+
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          8-14
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='https://www.raspberrypi.org' target="_blank">RaspberryPi.org</a><br>
+
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
