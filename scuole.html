@@ -1,8 +1,12 @@
 ---
 layout: default
 section_id: scuole
+slides:
+  - bg: images/@stock/boxed-slide-16.jpg
+  - bg: images/@stock/boxed-slide-17.jpg
+
 members:
-  - name: Alternanza Scuola LAvoro
+  - name: Alternanza Scuola Lavoro
     position: Modalità didattiche innovative
     desc:
       Contattaci per avviare un percorso di alternanza <br> nel <b>nostro laboratorio</b> o negli spazi del <b>tuo istituto</b>.
@@ -47,7 +51,35 @@ members:
       - icon_class: fa fa-tumblr
         url: http://tumblr.com
 ---
+<div class='full'>
+  <div class='row'>
 
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in page.slides %}
+            <div class='slide'>
+              <img alt="" src="{{slide.bg}}" />
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class='medium-4 columns'>
+      <h3>📱 L'Alcatraz<br>La scuola è una prigione, ma solo per gli smartphone!</h3>
+      <h5>Back to School: Fablab for Kids regala ai professori il case per requisire i cellulari della classe, per lezioni più serene</h5>
+
+      <div class='mod modBarGraph'>
+        Vi presentiamo Alcatraz, il case che imprigiona i cellulari per la durata della lezione. Il suo posto è sulla cattedra, in bella vista: all'inizio della lezione, ogni alunno sarà chiamato a inserire lo smartphone nel proprio slot numerato.
+        <br><br> Sei un insegnante o un genitore e vorresti un Alcatraz per la tua classe o quella di tuo figlio? Il progetto è open source: può essere scaricato dal nostro sito, modificato in base alle proprie esigenze e realizzato in qualsiasi laboratorio territoriale o atelier creativo.
+
+      </div>
+      <div class='spacing'></div>
+      <a class='button small' href='https://www.fablabforkids.it/files/L_Alcatraz.pdf' target="_blank">scaricalo qui!!</a>
+    </div>
+  </div>
+</div>
 <div class='full'>
   <div class='row'>
     <div class='medium-12 columns' align="center">
