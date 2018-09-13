@@ -1,0 +1,55 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-47.jpg
+  - images/@stock/medium-work-48.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>OTTO DIY</h3>
+      <p>Costruiscilo e insegnagli a ballare!<br><br>
+
+Come prende vita un robot? È un lungo viaggio e noi lo affronteremo insieme, passo per passo... ma anche a passo di danza!
+<br><br>Il robottino Otto è DIY in tutto e per tutto: modelleremo e stamperemo in 3D il corpo, assembleremo l'interno e lo programmeremo per insegnargli a ballare.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Età:</strong>
+          11-14
+        </li>
+        <li>
+          <strong>Prossime Date:</strong>
+          tba
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='https://www.ottodiy.com' target="_blank">ottodiy.com</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+
+          <a href='/portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
